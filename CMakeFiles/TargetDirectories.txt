@@ -1,0 +1,3 @@
+C:/Users/klps2/Desktop/MiniProj 2/build/CMakeFiles/2025_I2P2_TowerDefense.dir
+C:/Users/klps2/Desktop/MiniProj 2/build/CMakeFiles/edit_cache.dir
+C:/Users/klps2/Desktop/MiniProj 2/build/CMakeFiles/rebuild_cache.dir

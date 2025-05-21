@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\2025_I2P2_TowerDefense.dir/objects.a
+C:\llvm-mingw-20240417-msvcrt-x86_64\bin\llvm-ar.exe qc CMakeFiles\2025_I2P2_TowerDefense.dir/objects.a @CMakeFiles\2025_I2P2_TowerDefense.dir\objects1.rsp
+c:\llvm-mingw-20240417-msvcrt-x86_64\bin\clang++.exe -g -Wl,--whole-archive CMakeFiles\2025_I2P2_TowerDefense.dir/objects.a -Wl,--no-whole-archive -o 2025_I2P2_TowerDefense.exe -Wl,--out-implib,lib2025_I2P2_TowerDefense.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\2025_I2P2_TowerDefense.dir\linkLibs.rsp

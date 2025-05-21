@@ -1,0 +1,72 @@
+[INFO] Game Initializing...
+[INFO] Loaded Resource<image>: Resource/images/icon.png
+[INFO] Loaded window icon from: icon.png
+[INFO] There are total 5 supported mouse buttons
+[INFO] Allegro5 initialized
+[INFO] Game begin
+[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 48
+[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 36
+[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 42
+[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 38
+[INFO] Loaded Resource<image>: Resource/images/win/benjamin-sad.png
+[INFO] Loaded Resource<image>: Resource/images/win/dirt.png scaled to 400x100
+[INFO] Loaded Resource<image>: Resource/images/win/dirt.png
+[INFO] Loaded Resource<image>: Resource/images/win/floor.png
+[INFO] Loaded Resource<audio>: Resource/audios/win.wav
+[INFO] Game initialized
+[INFO] Game start event loop
+[INFO] stopped audio (bgm)
+[INFO] Loaded Resource<image>: Resource/images/stage-select/dirt.png scaled to 400x100
+[INFO] Loaded Resource<image>: Resource/images/stage-select/dirt.png
+[INFO] Loaded Resource<image>: Resource/images/stage-select/floor.png
+[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 40
+[INFO] Loaded Resource<audio>: Resource/audios/select.ogg
+[INFO] Created<sample_instance>: Resource/audios/select.ogg
+[INFO] Changed to stage-select scene
+[INFO] stopped audio (sample)
+[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 54
+[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 22
+[INFO] Loaded Resource<image>: Resource/images/stage-select/dirt.png scaled to 100x100
+[INFO] Created<sample_instance>: Resource/audios/select.ogg
+[INFO] Changed to scoreboard-scene scene
+[INFO] stopped audio (sample)
+[INFO] Created<sample_instance>: Resource/audios/select.ogg
+[INFO] Changed to stage-select scene
+[INFO] stopped audio (sample)
+[INFO] Created<sample_instance>: Resource/audios/select.ogg
+[INFO] Changed to scoreboard-scene scene
+[INFO] stopped audio (sample)
+[INFO] Created<sample_instance>: Resource/audios/select.ogg
+[INFO] Changed to stage-select scene
+[INFO] stopped audio (sample)
+[INFO] Created<sample_instance>: Resource/audios/select.ogg
+[INFO] Changed to scoreboard-scene scene
+[INFO] stopped audio (sample)
+[INFO] Created<sample_instance>: Resource/audios/select.ogg
+[INFO] Changed to stage-select scene
+[INFO] stopped audio (sample)
+[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 120
+[INFO] Changed to start scene
+[INFO] Game Terminating...
+[INFO] Game terminated
+[INFO] Game end
+[INFO] Destroyed Resource<image>: stage-select/floor.png
+[INFO] Destroyed Resource<image>: stage-select/dirt.png
+[INFO] Destroyed Resource<image>: stage-select/dirt.png?100x100
+[INFO] Destroyed Resource<image>: win/dirt.png
+[INFO] Destroyed Resource<image>: stage-select/dirt.png?400x100
+[INFO] Destroyed Resource<image>: win/dirt.png?400x100
+[INFO] Destroyed Resource<image>: win/floor.png
+[INFO] Destroyed Resource<image>: win/benjamin-sad.png
+[INFO] Destroyed Resource<image>: icon.png
+[INFO] Destroyed Resource<font>: pirulen.ttf?120
+[INFO] Destroyed Resource<font>: pirulen.ttf?22
+[INFO] Destroyed Resource<font>: pirulen.ttf?40
+[INFO] Destroyed Resource<font>: pirulen.ttf?38
+[INFO] Destroyed Resource<font>: pirulen.ttf?42
+[INFO] Destroyed Resource<font>: pirulen.ttf?36
+[INFO] Destroyed Resource<font>: pirulen.ttf?54
+[INFO] Destroyed Resource<font>: pirulen.ttf?48
+[INFO] Destroyed<sample_instance>: select.ogg
+[INFO] Destroyed Resource<audio>: select.ogg
+[INFO] Destroyed Resource<audio>: win.wav
