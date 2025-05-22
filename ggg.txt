@@ -1,0 +1,7 @@
+git init (一次)
+--------
+
+git add .
+git commit -m "first commit"
+git remote set-url origin https://github.com/klps2146/I2P_2_MiniProj2.git (一次)
+git push -u origin master
