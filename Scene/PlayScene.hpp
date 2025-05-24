@@ -5,6 +5,7 @@
 #include <memory>
 #include <utility>
 #include <vector>
+#include <queue>
 
 #include "Engine/IScene.hpp"
 #include "Engine/Point.hpp"
@@ -18,7 +19,7 @@ namespace Engine {
 }   // namespace Engine
 
 class PlayScene final : public Engine::IScene {
-private:
+public: //// new 本來是 privte
     enum TileType {
         TILE_DIRT,
         TILE_FLOOR,
@@ -33,6 +34,27 @@ protected:
     int SpeedMult;
 
 public:
+    //// new
+    float turret_coin_mul = 1.0f; 
+    float turret_coolDown_mul = 1.0f; // 越小 頻率越高
+
+    int coin_lv = 0;
+    int coolDown_lv = 0;
+    Engine::Label* coin_lv_l;
+    Engine::Label* coolDown_lv_l = 0;
+
+    float player_exp;
+    float player_level = 0;
+    int player_skill_point = 1;
+    Engine::Label* player_exp_l;
+    Engine::Label* player_level_l;
+    Engine::Label* player_skill_point_l;
+
+
+    void buff_adder(int state);
+
+    std::queue<int> level_req;
+
     static bool DebugMode;
     static const std::vector<Engine::Point> directions;
     static const int MapWidth, MapHeight;

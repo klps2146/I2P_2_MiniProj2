@@ -31,6 +31,7 @@ void Enemy::OnExplode() {
         getPlayScene()->GroundEffectGroup->AddNewObject(new DirtyEffect("play/dirty-" + std::to_string(distId(rng)) + ".png", dist(rng), Position.x, Position.y));
     }
 }
+#include <iostream>
 Enemy::Enemy(std::string img, float x, float y, float radius, float speed, float hp, int money) : Engine::Sprite(img, x, y), speed(speed), hp(hp), money(money) {
     CollisionRadius = radius;
     reachEndTime = 0;
@@ -45,6 +46,8 @@ void Enemy::Hit(float damage) {
         for (auto &it : lockedBullets)
             it->Target = nullptr;
         getPlayScene()->EarnMoney(money);
+        getPlayScene()->player_exp += money * 1.945;
+        std::cout << getPlayScene()->player_exp << std::endl;
         getPlayScene()->EnemyGroup->RemoveObject(objectIterator);
         AudioHelper::PlayAudio("explosion.wav");
     }
@@ -113,6 +116,17 @@ void Enemy::Update(float deltaTime) {
     }
     Rotation = atan2(Velocity.y, Velocity.x);
     Sprite::Update(deltaTime);
+
+    //// new
+    if (speed_changed){
+        speed_timer += deltaTime;
+        if (speed_timer >= speed_duration){
+            speed = original_speed;
+            speed_changed = false;
+            speed_duration = 0;
+            
+        }
+    }
 }
 void Enemy::Draw() const {
     Sprite::Draw();
@@ -120,4 +134,17 @@ void Enemy::Draw() const {
         // Draw collision radius.
         al_draw_circle(Position.x, Position.y, CollisionRadius, al_map_rgb(255, 0, 0), 2);
     }
+}
+
+//// new
+void Enemy::change_speed(float dv_mul, float duration = 0){
+    if (!speed_changed) {
+        original_speed = speed;
+    } else {
+        speed = original_speed;
+    }
+    speed_changed = true;
+    speed *= dv_mul;
+    speed_duration = duration;
+    speed_timer = 0;
 }

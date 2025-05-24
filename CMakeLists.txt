@@ -15,6 +15,8 @@ file(COPY allegro_monolith-5.2.dll DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 add_executable(2025_I2P2_TowerDefense
     Bullet/Bullet.cpp
     Bullet/Bullet.hpp
+    Bullet/CoolBullet.cpp
+    Bullet/CoolBullet.hpp
     Bullet/FireBullet.cpp
     Bullet/FireBullet.hpp
     Bullet/LaserBullet.cpp
@@ -26,6 +28,8 @@ add_executable(2025_I2P2_TowerDefense
 
     Enemy/Enemy.cpp
     Enemy/Enemy.hpp
+    Enemy/GodEnemy.cpp
+    Enemy/GodEnemy.hpp
     Enemy/SoldierEnemy.cpp
     Enemy/SoldierEnemy.hpp
     Enemy/TankEnemy.cpp
@@ -73,6 +77,11 @@ add_executable(2025_I2P2_TowerDefense
     Scene/WinScene.cpp
     Scene/WinScene.hpp
 
+    Tool/ShovelTool.cpp
+    Tool/ShovelTool.hpp
+    
+    Turret/CoolTurret.cpp
+    Turret/CoolTurret.hpp
     Turret/LaserTurret.cpp
     Turret/LaserTurret.hpp
     Turret/MachineGunTurret.cpp

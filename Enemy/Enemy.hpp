@@ -15,10 +15,19 @@ class Enemy : public Engine::Sprite {
 protected:
     std::vector<Engine::Point> path;
     float speed;
+
+    bool speed_changed = false;
+    float original_speed = 0;
+    float speed_timer = 0;
+    float speed_duration = 0;
+
     float hp;
+    
     int money;
     PlayScene *getPlayScene();
     virtual void OnExplode();
+
+    //// new
 
 public:
     float reachEndTime;
@@ -29,5 +38,7 @@ public:
     void UpdatePath(const std::vector<std::vector<int>> &mapDistance);
     void Update(float deltaTime) override;
     void Draw() const override;
+    //// new
+    void change_speed(float dv_mul, float duration);
 };
 #endif   // ENEMY_HPP

@@ -12,14 +12,17 @@ class PlayScene;
 class Turret : public Engine::Sprite {
 protected:
     int price;
-    float coolDown;
     float reload = 0;
     float rotateRadian = 2 * ALLEGRO_PI;
+    /// new
+    int hp;
     Sprite imgBase;
     std::list<Turret *>::iterator lockedTurretIterator;
     PlayScene *getPlayScene();
     // Reference: Design Patterns - Factory Method.
     virtual void CreateBullet() = 0;
+public:
+    float coolDown; //// change from protected
 
 public:
     bool Enabled = true;
