@@ -7,6 +7,12 @@
 },
 {
   "directory": "C:/Users/klps2/Desktop/MiniProj 2/build",
+  "command": "c:\\llvm-mingw-20240417-msvcrt-x86_64\\bin\\clang++.exe  @CMakeFiles/2025_I2P2_TowerDefense.dir/includes_CXX.rsp -g -o CMakeFiles\\2025_I2P2_TowerDefense.dir\\Bullet\\CoolBullet.cpp.obj -c \"C:\\Users\\klps2\\Desktop\\MiniProj 2\\Bullet\\CoolBullet.cpp\"",
+  "file": "C:/Users/klps2/Desktop/MiniProj 2/Bullet/CoolBullet.cpp",
+  "output": "CMakeFiles/2025_I2P2_TowerDefense.dir/Bullet/CoolBullet.cpp.obj"
+},
+{
+  "directory": "C:/Users/klps2/Desktop/MiniProj 2/build",
   "command": "c:\\llvm-mingw-20240417-msvcrt-x86_64\\bin\\clang++.exe  @CMakeFiles/2025_I2P2_TowerDefense.dir/includes_CXX.rsp -g -o CMakeFiles\\2025_I2P2_TowerDefense.dir\\Bullet\\FireBullet.cpp.obj -c \"C:\\Users\\klps2\\Desktop\\MiniProj 2\\Bullet\\FireBullet.cpp\"",
   "file": "C:/Users/klps2/Desktop/MiniProj 2/Bullet/FireBullet.cpp",
   "output": "CMakeFiles/2025_I2P2_TowerDefense.dir/Bullet/FireBullet.cpp.obj"
@@ -28,6 +34,12 @@
   "command": "c:\\llvm-mingw-20240417-msvcrt-x86_64\\bin\\clang++.exe  @CMakeFiles/2025_I2P2_TowerDefense.dir/includes_CXX.rsp -g -o CMakeFiles\\2025_I2P2_TowerDefense.dir\\Enemy\\Enemy.cpp.obj -c \"C:\\Users\\klps2\\Desktop\\MiniProj 2\\Enemy\\Enemy.cpp\"",
   "file": "C:/Users/klps2/Desktop/MiniProj 2/Enemy/Enemy.cpp",
   "output": "CMakeFiles/2025_I2P2_TowerDefense.dir/Enemy/Enemy.cpp.obj"
+},
+{
+  "directory": "C:/Users/klps2/Desktop/MiniProj 2/build",
+  "command": "c:\\llvm-mingw-20240417-msvcrt-x86_64\\bin\\clang++.exe  @CMakeFiles/2025_I2P2_TowerDefense.dir/includes_CXX.rsp -g -o CMakeFiles\\2025_I2P2_TowerDefense.dir\\Enemy\\GodEnemy.cpp.obj -c \"C:\\Users\\klps2\\Desktop\\MiniProj 2\\Enemy\\GodEnemy.cpp\"",
+  "file": "C:/Users/klps2/Desktop/MiniProj 2/Enemy/GodEnemy.cpp",
+  "output": "CMakeFiles/2025_I2P2_TowerDefense.dir/Enemy/GodEnemy.cpp.obj"
 },
 {
   "directory": "C:/Users/klps2/Desktop/MiniProj 2/build",
@@ -154,6 +166,18 @@
   "command": "c:\\llvm-mingw-20240417-msvcrt-x86_64\\bin\\clang++.exe  @CMakeFiles/2025_I2P2_TowerDefense.dir/includes_CXX.rsp -g -o CMakeFiles\\2025_I2P2_TowerDefense.dir\\Scene\\WinScene.cpp.obj -c \"C:\\Users\\klps2\\Desktop\\MiniProj 2\\Scene\\WinScene.cpp\"",
   "file": "C:/Users/klps2/Desktop/MiniProj 2/Scene/WinScene.cpp",
   "output": "CMakeFiles/2025_I2P2_TowerDefense.dir/Scene/WinScene.cpp.obj"
+},
+{
+  "directory": "C:/Users/klps2/Desktop/MiniProj 2/build",
+  "command": "c:\\llvm-mingw-20240417-msvcrt-x86_64\\bin\\clang++.exe  @CMakeFiles/2025_I2P2_TowerDefense.dir/includes_CXX.rsp -g -o CMakeFiles\\2025_I2P2_TowerDefense.dir\\Tool\\ShovelTool.cpp.obj -c \"C:\\Users\\klps2\\Desktop\\MiniProj 2\\Tool\\ShovelTool.cpp\"",
+  "file": "C:/Users/klps2/Desktop/MiniProj 2/Tool/ShovelTool.cpp",
+  "output": "CMakeFiles/2025_I2P2_TowerDefense.dir/Tool/ShovelTool.cpp.obj"
+},
+{
+  "directory": "C:/Users/klps2/Desktop/MiniProj 2/build",
+  "command": "c:\\llvm-mingw-20240417-msvcrt-x86_64\\bin\\clang++.exe  @CMakeFiles/2025_I2P2_TowerDefense.dir/includes_CXX.rsp -g -o CMakeFiles\\2025_I2P2_TowerDefense.dir\\Turret\\CoolTurret.cpp.obj -c \"C:\\Users\\klps2\\Desktop\\MiniProj 2\\Turret\\CoolTurret.cpp\"",
+  "file": "C:/Users/klps2/Desktop/MiniProj 2/Turret/CoolTurret.cpp",
+  "output": "CMakeFiles/2025_I2P2_TowerDefense.dir/Turret/CoolTurret.cpp.obj"
 },
 {
   "directory": "C:/Users/klps2/Desktop/MiniProj 2/build",

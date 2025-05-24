@@ -152,6 +152,30 @@ Bullet/Bullet.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2025_I2P2_TowerDefense.dir\build.make CMakeFiles/2025_I2P2_TowerDefense.dir/Bullet/Bullet.cpp.s
 .PHONY : Bullet/Bullet.cpp.s
 
+Bullet/CoolBullet.obj: Bullet/CoolBullet.cpp.obj
+.PHONY : Bullet/CoolBullet.obj
+
+# target to build an object file
+Bullet/CoolBullet.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2025_I2P2_TowerDefense.dir\build.make CMakeFiles/2025_I2P2_TowerDefense.dir/Bullet/CoolBullet.cpp.obj
+.PHONY : Bullet/CoolBullet.cpp.obj
+
+Bullet/CoolBullet.i: Bullet/CoolBullet.cpp.i
+.PHONY : Bullet/CoolBullet.i
+
+# target to preprocess a source file
+Bullet/CoolBullet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2025_I2P2_TowerDefense.dir\build.make CMakeFiles/2025_I2P2_TowerDefense.dir/Bullet/CoolBullet.cpp.i
+.PHONY : Bullet/CoolBullet.cpp.i
+
+Bullet/CoolBullet.s: Bullet/CoolBullet.cpp.s
+.PHONY : Bullet/CoolBullet.s
+
+# target to generate assembly for a file
+Bullet/CoolBullet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2025_I2P2_TowerDefense.dir\build.make CMakeFiles/2025_I2P2_TowerDefense.dir/Bullet/CoolBullet.cpp.s
+.PHONY : Bullet/CoolBullet.cpp.s
+
 Bullet/FireBullet.obj: Bullet/FireBullet.cpp.obj
 .PHONY : Bullet/FireBullet.obj
 
@@ -223,6 +247,30 @@ Enemy/Enemy.s: Enemy/Enemy.cpp.s
 Enemy/Enemy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2025_I2P2_TowerDefense.dir\build.make CMakeFiles/2025_I2P2_TowerDefense.dir/Enemy/Enemy.cpp.s
 .PHONY : Enemy/Enemy.cpp.s
+
+Enemy/GodEnemy.obj: Enemy/GodEnemy.cpp.obj
+.PHONY : Enemy/GodEnemy.obj
+
+# target to build an object file
+Enemy/GodEnemy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2025_I2P2_TowerDefense.dir\build.make CMakeFiles/2025_I2P2_TowerDefense.dir/Enemy/GodEnemy.cpp.obj
+.PHONY : Enemy/GodEnemy.cpp.obj
+
+Enemy/GodEnemy.i: Enemy/GodEnemy.cpp.i
+.PHONY : Enemy/GodEnemy.i
+
+# target to preprocess a source file
+Enemy/GodEnemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2025_I2P2_TowerDefense.dir\build.make CMakeFiles/2025_I2P2_TowerDefense.dir/Enemy/GodEnemy.cpp.i
+.PHONY : Enemy/GodEnemy.cpp.i
+
+Enemy/GodEnemy.s: Enemy/GodEnemy.cpp.s
+.PHONY : Enemy/GodEnemy.s
+
+# target to generate assembly for a file
+Enemy/GodEnemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2025_I2P2_TowerDefense.dir\build.make CMakeFiles/2025_I2P2_TowerDefense.dir/Enemy/GodEnemy.cpp.s
+.PHONY : Enemy/GodEnemy.cpp.s
 
 Enemy/PlaneEnemy.obj: Enemy/PlaneEnemy.cpp.obj
 .PHONY : Enemy/PlaneEnemy.obj
@@ -752,6 +800,54 @@ Scene/WinScene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2025_I2P2_TowerDefense.dir\build.make CMakeFiles/2025_I2P2_TowerDefense.dir/Scene/WinScene.cpp.s
 .PHONY : Scene/WinScene.cpp.s
 
+Tool/ShovelTool.obj: Tool/ShovelTool.cpp.obj
+.PHONY : Tool/ShovelTool.obj
+
+# target to build an object file
+Tool/ShovelTool.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2025_I2P2_TowerDefense.dir\build.make CMakeFiles/2025_I2P2_TowerDefense.dir/Tool/ShovelTool.cpp.obj
+.PHONY : Tool/ShovelTool.cpp.obj
+
+Tool/ShovelTool.i: Tool/ShovelTool.cpp.i
+.PHONY : Tool/ShovelTool.i
+
+# target to preprocess a source file
+Tool/ShovelTool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2025_I2P2_TowerDefense.dir\build.make CMakeFiles/2025_I2P2_TowerDefense.dir/Tool/ShovelTool.cpp.i
+.PHONY : Tool/ShovelTool.cpp.i
+
+Tool/ShovelTool.s: Tool/ShovelTool.cpp.s
+.PHONY : Tool/ShovelTool.s
+
+# target to generate assembly for a file
+Tool/ShovelTool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2025_I2P2_TowerDefense.dir\build.make CMakeFiles/2025_I2P2_TowerDefense.dir/Tool/ShovelTool.cpp.s
+.PHONY : Tool/ShovelTool.cpp.s
+
+Turret/CoolTurret.obj: Turret/CoolTurret.cpp.obj
+.PHONY : Turret/CoolTurret.obj
+
+# target to build an object file
+Turret/CoolTurret.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2025_I2P2_TowerDefense.dir\build.make CMakeFiles/2025_I2P2_TowerDefense.dir/Turret/CoolTurret.cpp.obj
+.PHONY : Turret/CoolTurret.cpp.obj
+
+Turret/CoolTurret.i: Turret/CoolTurret.cpp.i
+.PHONY : Turret/CoolTurret.i
+
+# target to preprocess a source file
+Turret/CoolTurret.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2025_I2P2_TowerDefense.dir\build.make CMakeFiles/2025_I2P2_TowerDefense.dir/Turret/CoolTurret.cpp.i
+.PHONY : Turret/CoolTurret.cpp.i
+
+Turret/CoolTurret.s: Turret/CoolTurret.cpp.s
+.PHONY : Turret/CoolTurret.s
+
+# target to generate assembly for a file
+Turret/CoolTurret.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2025_I2P2_TowerDefense.dir\build.make CMakeFiles/2025_I2P2_TowerDefense.dir/Turret/CoolTurret.cpp.s
+.PHONY : Turret/CoolTurret.cpp.s
+
 Turret/LaserTurret.obj: Turret/LaserTurret.cpp.obj
 .PHONY : Turret/LaserTurret.obj
 
@@ -1052,6 +1148,9 @@ help:
 	@echo ... Bullet/Bullet.obj
 	@echo ... Bullet/Bullet.i
 	@echo ... Bullet/Bullet.s
+	@echo ... Bullet/CoolBullet.obj
+	@echo ... Bullet/CoolBullet.i
+	@echo ... Bullet/CoolBullet.s
 	@echo ... Bullet/FireBullet.obj
 	@echo ... Bullet/FireBullet.i
 	@echo ... Bullet/FireBullet.s
@@ -1061,6 +1160,9 @@ help:
 	@echo ... Enemy/Enemy.obj
 	@echo ... Enemy/Enemy.i
 	@echo ... Enemy/Enemy.s
+	@echo ... Enemy/GodEnemy.obj
+	@echo ... Enemy/GodEnemy.i
+	@echo ... Enemy/GodEnemy.s
 	@echo ... Enemy/PlaneEnemy.obj
 	@echo ... Enemy/PlaneEnemy.i
 	@echo ... Enemy/PlaneEnemy.s
@@ -1127,6 +1229,12 @@ help:
 	@echo ... Scene/WinScene.obj
 	@echo ... Scene/WinScene.i
 	@echo ... Scene/WinScene.s
+	@echo ... Tool/ShovelTool.obj
+	@echo ... Tool/ShovelTool.i
+	@echo ... Tool/ShovelTool.s
+	@echo ... Turret/CoolTurret.obj
+	@echo ... Turret/CoolTurret.i
+	@echo ... Turret/CoolTurret.s
 	@echo ... Turret/LaserTurret.obj
 	@echo ... Turret/LaserTurret.i
 	@echo ... Turret/LaserTurret.s
