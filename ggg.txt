@@ -3,7 +3,7 @@ git init (一次)
 
 git add .
 git commit -m "first commit"
-git remote set-url origin https://github.com/klps2146/I2P_2_MiniProj2.git 
+git remote add origin https://github.com/klps2146/I2P_2_MiniProj2.git 
 git push -u origin master
 
 
@@ -12,3 +12,7 @@ git push -u origin master
 git add .
 git commit -m "你的更新說明"
 git push
+
+重新用build
+cmake --build . --target clean
+cmake --build . --config Debug // 編譯
